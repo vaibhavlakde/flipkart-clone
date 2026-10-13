@@ -2,8 +2,8 @@
 
 A high-fidelity, fully functional **Flipkart Clone** engineered strictly with **HTML5, CSS3, and Vanilla JavaScript (ES6+)**. 
 
-> **🎯 Designed Specifically for Entry-Level Candidates (0–2 Years Experience)**  
-> This project intentionally avoids heavy external frameworks (React, Angular, Vue, Tailwind, Bootstrap, Node.js, npm) to ensure recruiters evaluate you **only on core foundational web technologies** specified in the job description, protecting you from off-scope framework questions.
+> **🎯 Pure Vanilla Web Implementation**  
+> This project is engineered strictly using foundational web technologies (**HTML5, CSS3, and Vanilla JavaScript**) with zero external frameworks or runtime dependencies to guarantee maximum performance, clean code architecture, and high reliability.
 
 ---
 
@@ -83,32 +83,11 @@ No installation, build tools, or server setup required:
 ### 8. Product Details Quick View Modal
 - Detailed specs breakdown, offer tags (bank offers, exchange discounts), and immediate "Add to Cart" / "Buy Now" actions.
 
-### 9. 🛠️ CMS Web Authoring Simulator (Recruiter Highlight)
+### 9. 🛠️ CMS Web Content Authoring Simulator
 - Click **"CMS Authoring"** in the header.
 - **Add New Product**: Author a new title, category, price, discount, rating, and specs. It immediately injects into the live catalog!
 - **Manage Banners**: Publish a custom hero banner with custom title, subtitle, and gradient theme.
 - **Reset Catalog**: One-click restore back to default seed data.
-
----
-
-## 💼 Interview Q&A Cheatsheet for Candidates (0–2 Years Experience)
-
-When the recruiter or interviewer asks you about this project, use these ready answers:
-
-### Q1: Why did you build this project using pure Vanilla HTML, CSS, and JavaScript instead of React or Angular?
-> **Answer**: *"For this role, mastering core web fundamentals is paramount. I wanted to demonstrate solid mastery of the DOM, browser APIs, semantic HTML5, modern CSS3 layout engines (Flexbox & CSS Grid), and ES6+ JavaScript concepts without relying on abstractions or dependencies. This ensures that whatever CMS or enterprise tech stack the team uses, I can author and debug web content at the fundamental layer."*
-
-### Q2: How does this project reflect your understanding of Web Content Management (CMS) and Authoring?
-> **Answer**: *"I incorporated a dedicated CMS Authoring Simulator directly into the application. In a real-world CMS (like Adobe Experience Manager, WordPress, or Drupal), authors configure structured content schemas (titles, banners, categories, pricing metadata) which the presentation layer renders dynamically. In my project, content authors can add new products and promotional banners through a form interface without modifying the codebase, showing my clear understanding of separation between content authoring and template presentation."*
-
-### Q3: How did you implement responsive design without Bootstrap or Tailwind?
-> **Answer**: *"I used modern CSS3 features: CSS Custom Properties (`:root` variables) for standardized theme tokens, CSS Grid with `repeat(auto-fill, minmax(230px, 1fr))` for a flexible product grid that adapts automatically, Flexbox for directional navigation bars, and mobile-first media queries targeting tablet (`<=860px`) and mobile (`<=680px`) breakpoints."*
-
-### Q4: How is state and data managed in this application?
-> **Answer**: *"State is centralized in a clean JavaScript `AppState` object containing the products catalog, cart items, active filters, search query, and carousel index. State changes trigger modular rendering functions (`filterAndRenderProducts()`, `renderCartDrawer()`). Additionally, user data like the cart and wishlist are persisted in browser `localStorage` using `JSON.stringify()` and `JSON.parse()`."*
-
-### Q5: How do you handle rotational shifts and working with global client time zones?
-> **Answer**: *"I am fully comfortable and flexible with rotational shifts to support global clients across different time zones. I prioritize clear written documentation, meeting deadlines, proactive handover notes between shifts, and maintaining high code and content quality under tight turnaround times."*
 
 ---
 
@@ -120,5 +99,7 @@ flipkart-clone/
 ├── index.html        # Semantic HTML5 structure (Header, Nav, Carousel, Grid, Modals, Footer)
 ├── style.css         # Clean CSS3 stylesheets with variables, Grid, Flexbox, & Media Queries
 ├── script.js         # Pure Vanilla JavaScript engine (State, DOM, LocalStorage, Search, CMS)
-└── README.md         # Documentation, implementation details, and interview preparation guide
+├── server.js         # Lightweight local static server (Node.js built-in http)
+├── DOCUMENTATION.md  # Comprehensive technical architecture & module manual
+└── README.md         # Project overview and usage guide
 ```

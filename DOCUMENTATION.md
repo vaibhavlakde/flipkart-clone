@@ -2,11 +2,10 @@
 
 ## 1. Executive Summary & Objective
 
-This project is a production-grade, highly responsive **Flipkart Web Application Clone** developed strictly according to the following job specification:
-- **Target Role**: Entry-level Web Developer / Web Content Author (0 to 2 Years Experience).
+This project is a production-grade, highly responsive **Flipkart Web Application Clone** developed strictly according to modern web development standards:
 - **Core Technology Stack**: **Pure HTML5, CSS3, and Vanilla JavaScript (ES6+)**.
 - **Specialized Competency**: Web Content Management Systems (CMS) & Web Authoring tools.
-- **Strict Constraint**: Zero external dependencies (No React, Angular, Vue, Tailwind, Bootstrap, jQuery, or third-party runtime npm packages) to ensure all recruiter evaluations focus squarely on core web standards and foundational skills.
+- **Architecture Philosophy**: Zero external dependencies (No React, Angular, Vue, Tailwind, Bootstrap, jQuery, or third-party runtime npm packages) to ensure lightweight loading, zero build-step overhead, and complete DOM-level control.
 
 ---
 
@@ -121,18 +120,5 @@ http://localhost:8080/
 
 ---
 
-## 6. Recruiter & Technical Interview Preparation Notes
-
-### Core Questions You Can Confidently Answer
-
-| Question | Recommended Response |
-| :--- | :--- |
-| **"Why is vanilla JS preferred here over modern libraries?"** | *"It demonstrates foundational understanding of browser APIs, event bubbling, DOM manipulation, and asynchronous programming without relying on framework runtime overhead."* |
-| **"How did you ensure responsive web design?"** | *"By leveraging modern CSS3 features: CSS Grid with fluid minmax auto-fill, Flexbox, relative rem/percentage units, and media queries across mobile, tablet, and desktop breakpoints."* |
-| **"How does this project demonstrate CMS authoring?"** | *"It includes an integrated Web Content Authoring Simulator that mimics CMS editorial tools, allowing content authors to create, update, and publish catalog items and banners dynamically without altering the code."* |
-| **"How do you handle rotational shifts and global client communication?"** | *"I am flexible and eager to work in rotational shifts. I emphasize disciplined handovers, clear documentation, proactive issue tracking, and adherence to strict project delivery timelines."* |
-
----
-
-## 7. License & Credits
-Built for educational, portfolio, and interview demonstration purposes. All Flipkart trademarks, logos, and brand assets are intellectual property of Flipkart Internet Private Limited.
+## 6. License & Credits
+Built for educational and portfolio demonstration purposes. All Flipkart trademarks, logos, and brand assets are intellectual property of Flipkart Internet Private Limited.
